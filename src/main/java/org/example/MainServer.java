@@ -6,8 +6,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+
 public class MainServer {
-    public static void main (String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         int port = 8080;
         // порт можете выбрать любой в доступном диапазоне 0-65536. Но чтобы не нарваться на уже занятый -
         // рекомендуем использовать около 8080
